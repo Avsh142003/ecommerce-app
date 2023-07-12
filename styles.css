@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.pre-heading{
+    display:flex;
+    height:50px;
+    width:100%;
+    position: fixed;
+    background-color: #FF0800;
+    justify-content: space-around;
+}
+
+
+.left-part{
+    /* display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    padding-top:10px;
+
+}
+
+.offer{
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.right-part{
+    display:flex;
+    flex-direction: row;
+    gap:20px;
+
+}
+
+
+.email-id{
+    padding-top:10px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.address{
+    padding-top:10px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
+
+.phone-no{
+    padding-top:10px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+}
